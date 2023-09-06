@@ -1,12 +1,14 @@
 import './App.css';
-import Navigation from './views/Navigation';
+import MainLayout from './views/layouts/MainLayout';
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      <MainLayout />
     </div>
   );
 }
 
 export default App;
+
+
